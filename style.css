@@ -46,7 +46,10 @@
     text-decoration: none;            
     color: #25468A;
 }
-.btn {         
+a:hover{
+    color:  #2855af;
+}
+.nav button {         
     padding: 9px 23px;
     background-color: #FFF;            
     border-radius: 24px;
@@ -90,9 +93,9 @@
     margin: 10px 0px;
     color: #3B4A6B; 
 }
-.headerBtn{      
+.headerBlock button{      
         padding: 15px ;
-        background-color: #F7BA0E;       
+        background-color: #f7ba0e;       
         border-radius: 26px;
         border: none;
         width: 256px;
@@ -101,4 +104,14 @@
         font-family: "Roboto Thin",serif;
         color: #3B4A6B; 
 }
+.headerBlock button:hover {
+    background-color: #fdca40 ;
+}
+  
+.nav button:hover {
+    background-color:  #b9b9b9;
+}
 
+button:active {
+    box-shadow: 0px 0px 5px 1px;
+}
