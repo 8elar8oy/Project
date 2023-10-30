@@ -250,4 +250,77 @@ button:active {
     line-height: 134.3%; 
     letter-spacing: 0.44px;
 }
+.Conclusion {
+    display: flex;
+    justify-content: space-between;
+}
+.LicenceCredits {
+    display: flex;
+    flex-direction: column;
+    max-width: 480px;
+    gap: 15px;
+    margin-bottom: 65px;
+}
+
+
+.LicCredTitle {
+    color: #1391CE;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 121.3%;
+    letter-spacing: 0.36px;
+
+}
+.LicCredInfo {
+    color: var(--Gray-2, #4F4F4F);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125.7%; /* 22.626px */
+}
+.footer{
+    background: #1391CE;
+    height: 144px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.line{
+    margin: 30px auto;
+    width: 1220px;
+    height: 1px;
+    background: var(--color-neutral-black-3, #E3E3E3);
+}
+.footerInfo{
+    display: flex;
+    justify-content: space-between;
+    width: 1220px;
+}
+.footertxt{
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;  
+    line-height: 134.3%; 
+    letter-spacing: 0.16px;
+}
+.blk{
+    color: var(--color-neutral-black-1, #302E2F);
+    font-weight: 400;
+}
+.wht{
+    color: white;
+    font-weight: 700;
+}
+.copyright {
+    display: flex;
+}
+
+
+.talkToUs {
+    display: flex;
+}
+
 
